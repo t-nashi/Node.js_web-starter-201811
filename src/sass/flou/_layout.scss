@@ -51,5 +51,8 @@
 	flex-wrap: wrap;		// 横幅足らないときは無理せず段落落ち
 	img {
 		width: 300px;
+		@include mq-down(sm) {
+			width: 100%;
+		}
 	}
 }
